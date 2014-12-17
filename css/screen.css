@@ -143,7 +143,7 @@ p {
     max-width: 50px; }
     @media (max-width: 768px) {
       .social-icons li > a > img {
-        max-width: 80%; } }
+        max-width: 66%; } }
   .social-icons li > a:hover {
     color: #01afe1;
     opacity: 0.4;
@@ -154,7 +154,26 @@ p {
       width: 100%;
       text-align: center;
       display: block;
-      margin: 0; } }
+      margin: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+      *zoom: 1; }
+      .social-icons li {
+        list-style-image: none;
+        list-style-type: none;
+        margin-left: 0;
+        white-space: nowrap;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px; }
+        .social-icons li:first-child {
+          padding-left: 0; }
+        .social-icons li:last-child {
+          padding-right: 0; }
+        .social-icons li.last {
+          padding-right: 0; } }
 
 .left-title > p.under-title {
   margin-right: 12%;

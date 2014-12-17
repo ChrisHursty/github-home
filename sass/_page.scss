@@ -103,7 +103,7 @@ p {
         max-width: 50px;
 
         @media (max-width: 768px) {
-            max-width: 80%;
+            max-width: 66%;
         }
     }
 
@@ -119,6 +119,7 @@ p {
         text-align: center;
         display: block;
         margin: 0;
+        @include horizontal-list(0px, left);
     }
 }
 
@@ -133,7 +134,7 @@ p {
         weight: $font-heavy;
         size: 1em;
     };
-    
+
     @media (max-width: 768px) {
         margin-right: 0;
         text-align: center;
