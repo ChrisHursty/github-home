@@ -23,10 +23,6 @@
 }
 
 
-//Sticky Footer
-@include sticky-footer(100px, ".main-container", ".root-footer", ".main-footer");
-
-
 // Main content
 
 .left-content, .right-content {
@@ -59,3 +55,27 @@
     width: 64%;
     @include float-right;
 }
+
+
+// Footer Columns
+
+.one-third {
+    float: left;
+    width: 33%;
+    margin-right: 0.5%;
+}
+
+.last {
+    margin-right: 0;
+}
+
+// Sticky Footer
+@include sticky-footer(180px, ".main-container", ".root-footer", ".main-footer");
+
+
+
+
+
+
+
+

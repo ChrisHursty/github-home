@@ -45,6 +45,10 @@ h2.sub-title {
     line-height: 1.4em;
 }
 
+p {
+    text-transform: lowercase;
+}
+
 .top-container {
     background-color: $light-grey;
 }
@@ -82,7 +86,7 @@ h2.sub-title {
 
 .social {
     display: block;
-    margin: 20px auto;
+    margin: 80px auto 0;
 }
 
 .social-icons {
@@ -135,10 +139,40 @@ h2.sub-title {
 
 // Footer
 
-.main-footer {
-    border-top: 1px solid $grey;
+.main-footer {    
     padding: 30px 10px;
     background-color: $light-grey;
     text-align: center;
+    .container {
+        border-bottom: none;
+    
+        a {
+            color: $dark-grey;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
 
+.one-third {
+    border: 1px solid $grey;
+    text-align: center;
+    background: $off-white;
+    padding: 30px 0;
+}
+
+.sub-footer {
+    display: inline-block;
+    padding-top: 14px;
+    a {
+        color: $dark-grey;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
