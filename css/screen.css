@@ -244,6 +244,9 @@ p {
     margin-right: 1%;
     float: left; } }
 
+@media (max-width: 768px) {
+  .right-content {
+    padding: 0 0 12px 0; } }
 @media (min-width: 769px) {
   .right-content {
     width: 67%;

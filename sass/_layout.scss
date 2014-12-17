@@ -47,6 +47,10 @@
 }
 
 .right-content {
+    @media (max-width: 768px) {
+        padding: 0 0 12px 0;
+    }
+
     @media (min-width: 769px) {
         width: 67%;
         @include float-right;
