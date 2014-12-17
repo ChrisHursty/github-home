@@ -8,14 +8,19 @@
     }
 
     @media (max-width: 768px) {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     
 }
 
 .container {
     @include float-left;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .main-header {
@@ -27,6 +32,9 @@
 
 .left-content, .right-content {
     padding: 20px 0;
+    @media (max-width: 768px) {
+        padding: 12px 0;
+    }
 }
 
 
@@ -61,8 +69,8 @@
 
 .one-third {
     float: left;
-    width: 33%;
-    margin-right: 0.5%;
+    width: 30%;
+    margin-right: 5%;
 }
 
 .last {
