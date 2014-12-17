@@ -23,6 +23,10 @@
     }
 }
 
+.container-last {
+    border-bottom: none;
+}
+
 .main-header {
     @include clearfix;
 }

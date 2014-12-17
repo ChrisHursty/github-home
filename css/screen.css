@@ -206,7 +206,8 @@ p {
 .main-footer {
   padding: 30px 10px;
   background-color: #dfdfdf;
-  text-align: center; }
+  text-align: center;
+  border-top: 1px solid #929292; }
   .main-footer .container {
     border-bottom: none; }
     .main-footer .container a {
@@ -246,6 +247,9 @@ p {
     .container {
       width: 100%;
       text-align: center; } }
+
+.container-last {
+  border-bottom: none; }
 
 .main-header {
   overflow: hidden;
